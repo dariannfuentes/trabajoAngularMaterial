@@ -19,6 +19,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatBadgeModule } from '@angular/material/badge';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTableModule} from '@angular/material/table';
+import { Componente5Component } from './componentes/componente5/componente5.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {MatTableModule} from '@angular/material/table';
     Componente3Component,
     Componente4Component,
     MenuComponent,
+    Componente5Component,
   ],
   imports: [
     BrowserModule,
