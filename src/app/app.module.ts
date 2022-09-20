@@ -20,6 +20,7 @@ import { MatBadgeModule } from '@angular/material/badge';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTableModule} from '@angular/material/table';
 import { Componente5Component } from './componentes/componente5/componente5.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { Componente5Component } from './componentes/componente5/componente5.comp
     MatCardModule,
     MatBadgeModule,
     MatFormFieldModule,
-    MatTableModule
+    MatTableModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent],
