@@ -2,18 +2,18 @@ import { Component, OnInit } from '@angular/core';
 export interface PeriodicElement {
   name: string;
   position: number;
-  weight: number;
+  weight: string;
   symbol: string;
 }
 const ELEMENT_DATA: PeriodicElement[] = [
-  { position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H' },
-  { position: 2, name: 'Helium', weight: 4.0026, symbol: 'He' },
-  { position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li' },
-  { position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be' },
-  { position: 5, name: 'Boron', weight: 10.811, symbol: 'B' },
-  /*{ position: 6, name: 'Carbon', weight: 12.0107, symbol: 'C' },
-  { position: 7, name: 'Nitrogen', weight: 14.0067, symbol: 'N' },
-  { position: 8, name: 'Oxygen', weight: 15.9994, symbol: 'O' },
+  { position: 1, name: 'Pagina Web', weight: 'Pueden resolver cualquier duda sobre el portafolio de productos.', symbol: 'H' },
+  { position: 2, name: 'Atencion remota para TVs y dispositivos Galaxy', weight: 'Solicitudes simples sobre configuracion de dispositivos. Atencion en tiempo real.', symbol: 'He' },
+  { position: 3, name: 'Samsung Members', weight: 'Soporte tecnico para dispositivos de forma personalizada.', symbol: 'Li' },
+  { position: 4, name: 'Casa Samsung', weight: 'Ubicacion fisica especializada en atencion al cliente y servicio tecnico, con ambiente climatizados para hacer mas amena la espera', symbol: 'Be' },
+  { position: 5, name: 'Soporte a domicilio para dispositivos de grandes dimensiones', weight: 'Soporte residecial para heladeras, lavadoras o TVs de 43" o mas.', symbol: 'B' },
+  { position: 6, name: 'Tiendas Samsung', weight: 'Ademas de poder consultar y comprar dispositivos Samsung, proveen un servicio tenico simple.', symbol: 'C' },
+  { position: 7, name: 'Soporte Telefonico Samsung', weight: 'Ideal para despejar dudas, hacer solicitudes y obtener soporte remoto las 24 horas.', symbol: 'N' },
+  /*{ position: 8, name: '', weight: 15.9994, symbol: 'O' },
   { position: 9, name: 'Fluorine', weight: 18.9984, symbol: 'F' },
   { position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne' },*/
 ];
@@ -24,7 +24,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./componente4.component.css'],
 })
 export class Componente4Component implements OnInit {
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
+  displayedColumns: string[] = ['position', 'name', 'weight'];
   dataSource = ELEMENT_DATA;
   constructor() {}
 
