@@ -1,0 +1,12 @@
+.example-card {
+    max-width: 700px;
+  
+    margin-left:20%;
+    margin-top:5%;
+  }
+  
+  .example-header-image {
+    background-image: url('hhttps://phantom-marca.unidadeditorial.es/e00654a257e444dc80ee21b0ea78e083/resize/1320/f/jpg/assets/multimedia/imagenes/2022/09/24/16640012744527.jpg');
+    background-size: cover;
+  }
+  
